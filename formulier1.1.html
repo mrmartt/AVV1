@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+
+<body>
+    <article>
+        <h1>Aanmelden</h1>
+        <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+        <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+        </p>
+        <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="http://intra.iam.hva.nl/content/algemeen/studieprogramma/">contact</a> met ons opnemen.</p>
+    </article>
+    <form>
+        <fieldset>
+            <legend>
+                Contactgegevens:
+            </legend>
+            <label>
+                Naam:
+                <input type="text" name="naam" placeholder="Voer uw naam in">
+            </label>
+            <label>
+                Bedrijf:
+                <input type="text" name="bedrijf" placeholder="Voer een bedrijf in">
+            </label>
+            <label>
+                Adres:
+                <input type="text" name="adres" placeholder="Voer een geldig adres in">
+            </label>
+            <label>
+                Postcode:
+                <input type="text" name='postcode' placeholder="Voer een 4 cijferige postcode in">
+            </label>
+            <label>
+                Plaats:
+                <input type="text" name="plaats">
+            </label>
+            <label>
+                Telefoon:
+                <input type="tel" name="telefoon" placeholder="Voer een 10 cijferige telefoon nummer in">
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" placeholder="Voer een geldig email-adres in">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Ik wil mij aanmelden:
+            </legend>
+            <label>
+                <input type="radio" name="keuze" value="voor een project" />voor een project
+            </label>
+            <label>
+                <input type="radio" name="keuze" value="als stagebedrijf" />als stagebedrijf
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Project
+            </legend>
+            <label>
+                Titel:
+                <input type="text" name="titel">
+            </label>
+            <label>
+                Opdrachtomschrijving:
+                <input type="text" name="titel">
+            </label>
+            <label>
+                Doelgroepomschrijving:
+                <input type="text" name="titel">
+            </label>
+            <label>
+                Doelstelling/ Intentie van het project:
+                <input type="text" name="titel">
+            </label>
+            <label>
+                Looptijd:
+                <input type="time">
+            </label>
+            <label>
+                Deadline:
+                <input type="time">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Geschikt voor:
+            </legend>
+            <p>
+                <select name="eerstejaars">
+                    <option value="eerstejaars studenten">Eerstejaars studenten</option>
+                    <option value="eerstejaars studenten">Tweedejaars studenten</option>
+                    <option value="eerstejaars studenten">Derdejaars studenten</option>
+                    <option value="eerstejaars studenten">Afstudeer studenten</option>
+                    <option value="eerstejaars studenten">Onbekend</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Stage
+            </legend>
+            <label>
+                Geschikt voor:
+            </label>
+            <p>
+                <select name="eerstejaars" id="stageperiode">
+                    <option value="eerstejaars studenten">Tweedejaars studenten</option>
+                    <option value="eerstejaars studenten">Afstudeer studenten</option>
+                    <option value="eerstejaars studenten">Onbekend</option>
+                </select>
+            </p>
+            <label>
+                Hoe lang is de stage:
+            </label>
+            <label>
+                <input type="radio" name="keuze" value="voor een project" />10 weken
+            </label>
+            <label>
+                <input type="radio" name="keuze" value="als stagebedrijf" />20 weken
+            </label>
+            <label>
+                Begin datum:
+                <input type="datetime-local" name="deadline">
+            </label>
+            <label>
+                Beschrijving van de werkzaamheden:
+                <input type="text">
+            </label>
+            <label>
+                Opmerking:
+                <input type="text">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Beschrijving stagebedrijf
+            </legend>
+            <label>
+                Bedrijfsnaam:
+                <input type="text">
+            </label>
+            <label>
+                Adres:
+                <input type="text">
+            </label>
+            <label>
+                Postcode:
+                <input type="text">
+            </label>
+            <label>
+                Plaats:
+                <input type="text">
+            </label>
+            <label>
+                Sector:
+                <input type="text">
+            </label>
+            <label>
+                Core Business:
+                <input type="text">
+            </label>
+            <label>
+                Opmerking:
+                <input type="text">
+            </label>
+        </fieldset>
+    </form>
+    <input type="submit">
+</body>
+
+</html>
